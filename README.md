@@ -21,7 +21,7 @@ The only way to install Giet currently is to compile it from source.
 You need [Go](https://go.dev/doc/install) and [Git](https://git-scm.com/install/linux).
 
 ```sh
-git clone https://github.com/dash-phlox/giet.git
+git clone https://github.com/Hypedahmed/Giet.git
 cd giet/src
 go mod init giet
 go mod tidy
@@ -29,7 +29,6 @@ go build -o giet ./cmd
 sudo mv giet /usr/local/bin/
 ```
 
-> You can replace `sudo` with `doas` if you prefer.
 
 ## Usage
 
